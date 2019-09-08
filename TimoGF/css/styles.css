@@ -1,0 +1,363 @@
+.navbar {
+    background: transparent;
+    height: 50px;
+    border-radius: 0px;
+}
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    .navbar {
+        height: 80px;
+    }
+}
+
+.nav-color{
+    background-color: #161616;
+}
+
+.div-logo {
+    float: left;
+}
+
+.fundo-sombra {
+    position: absolute;
+    height: 736px;
+    background: #172944;
+    opacity: 0.5;
+    width: 100%;
+    z-index: 999;
+}
+@media screen and (max-width: 620px) {
+    .fundo-sombra {
+        background-position: center;
+        height: 100vh;
+    }
+}
+#app .text-title {
+    z-index: 999;
+}
+.title-top {
+    color: #fff;
+    font-family: "Lovelo black", sans-serif;
+    font-size: 60.46px;
+    font-weight: 900;
+    line-height: 89px;
+    text-align: center;
+    z-index: 1;
+}
+@media screen and (max-width: 620px) {
+    .title-top {
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 60px;
+    }
+}
+
+#app {
+    overflow: hidden;
+}
+
+#app .text-title {
+    z-index: 999;
+}
+
+@media screen and (orientation: landscape) {
+    #app {
+        background-size: cover;
+        min-height: 736px;
+    }
+}
+#contact {
+    background: #F5F5F5;
+}
+@media screen and (min-width: 577px) {
+    #contact {
+        height: 820px;
+    }
+}
+@media screen and (max-width: 620px) {
+    #contact {
+        min-height: 755px;
+    }
+}
+
+
+.contact {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+@media screen and (max-width: 620px) {
+    .contact {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.contact .contact-content {
+    font-size: 1em;
+}
+@media screen and (max-width: 620px) {
+    .contact .contact-content {
+        padding-left: 15px;
+        padding-right: 15px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+.contact .contact-content p {
+    color: #1D2E49;
+    font-family: "Avenir Next Regular";
+    font-size: 1em;
+    font-weight: 100;
+}
+.contact input {
+    background: #fff;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-weight: 100;
+    font-size: 1.2em;
+    color: #4D4D4D;
+    border-radius: 0px;
+    height: 50px;
+}
+.contact input ::placeholder {
+    margin-bottom: 10px;
+}
+.contact input:focus {
+    background: #fff;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    border-bottom: 1px solid #fff;
+    outline: 0;
+    color: #4D4D4D;
+    font-weight: 100;
+}
+.contact textarea {
+    background: #fff;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-weight: 100;
+    font-size: 1.2em;
+    font-weight: 100;
+    height: 150px;
+    color: #4D4D4D;
+}
+.contact textarea:focus {
+    background: #fff;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    color: #4D4D4D;
+}
+@media screen and (max-width: 620px) {
+    .contact textarea {
+        height: 100px;
+    }
+}
+@media screen and (max-width: 620px) and (orientation: portrait) {
+    .contact .row {
+        margin-left: 0px !important;
+        margin-right: 0px;
+    }
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.row {
+    margin-left: 0px !important;
+}
+.row .col-md-1 {
+    padding: 0px;
+}
+
+
+.box-form-contact {
+    margin-top: 20px;
+}
+@media screen and (min-width: 576px) {
+    .box-form-contact .container-form {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .box-form-contact .container-form {
+        width: 100%;
+    }
+}
+.box-form-contact form {
+    margin-top: 50px;
+}
+@media screen and (max-width: 620px) {
+    .box-form-contact form {
+        margin-top: 0px;
+        min-height: 394px;
+    }
+}
+.box-form-contact form .group-project {
+    margin-top: 20px;
+}
+.box-form-contact form .div-btn-enviar {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.box-form-contact form .div-btn-enviar .btn-enviar {
+    margin-top: 20px;
+    font-size: 1.2em;
+    width: 100%;
+    background-color: #E63D4A;
+    color: #fff;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    height: 20%;
+}
+.box-form-contact form .div-btn-enviar .btn-enviar:active {
+    border: none;
+}
+@media screen and (max-width: 620px) and (orientation: portrait) {
+    .form-desktop {
+        display: none;
+    }
+}
+.title-form-contact {
+    font-size: 3em;
+    text-align: left;
+    color: #1D2E49;
+    font-family: "Avenir Next Regular";
+    font-weight: 600;
+}
+@media screen and (max-width: 620px) and (orientation: portrait) {
+    .title-form-contact {
+        text-align: center;
+        font-size: 3em !important;
+        line-height: 40px !important;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+     .container-form {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 1400px) {
+     .container-form {
+        width: 100%;
+    }
+}
+.form-group {
+    margin-bottom: 5px;
+}
+.group-project {
+    margin-top: 20px;
+}
+form .div-btn-enviar {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+form .div-btn-enviar .btn-enviar {
+    margin-top: 20px;
+    font-size: 1.2em;
+    width: 100%;
+    background-color: #E63D4A;
+    color: #fff;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+}
+form .div-btn-enviar .btn-enviar:active {
+    border: none;
+}
+.btn-enviar {
+    width: 100%;
+    background-color: #E63D4A;
+    border-radius: 25px;
+    border: transparent;
+    height: 40px;
+}
+.div-footer {
+    background-color: #161616;
+    padding-top: 50px;
+    padding-bottom: 5px !important;
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1250px !important;
+    }
+}
+.ico-social .ico-logo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ico-social span {
+    color: #A7A5A8;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 620px) {
+    .ico-social {
+        margin-bottom: 20px;
+    }
+}
+.box-social {
+    padding-top: 10px;
+    margin-right: 0px !important;
+    background-color: #001024;
+}
+
+
+.box-certificado {
+    float: left;
+}
+@media screen and (max-width: 620px) {
+    .box-certificado {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 576px) {
+    .box-certificado {
+        padding-left: 0px !important;
+        float: left;
+    }
+}
+.box-certificado span {
+    margin-top: 10px;
+    font-size: 0.7em;
+    color: #A4A4A4;
+}
+@media screen and (max-width: 620px) {
+    .box-certificado span {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 620px) {
+    .box-certificado img {
+        width: 100%;
+        text-align: center;
+    }
+}
+.box-certificado .ico-certificado {
+    width: 50px;
+    height: 50px;
+}
